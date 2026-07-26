@@ -1,6 +1,6 @@
 // Concrete Prototype: Rectangle
 
-public class RectanglePrototype extends Shape {
+public class RectanglePrototype extends ShapePrototype {
     private int width;
     private int height;
 

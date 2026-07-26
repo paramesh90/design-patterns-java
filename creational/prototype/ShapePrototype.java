@@ -4,11 +4,11 @@
 
 import java.io.Serializable;
 
-public abstract class Shape implements Cloneable, Serializable {
+public abstract class ShapePrototype implements Cloneable, Serializable {
     private String id;
     protected String type;
 
-    public Shape() {}
+    public ShapePrototype() {}
 
     public String getType() {
         return type;

@@ -1,6 +1,6 @@
 // Concrete Prototype: Circle
 
-public class CirclePrototype extends Shape {
+public class CirclePrototype extends ShapePrototype {
     private int radius;
 
     public CirclePrototype() {
